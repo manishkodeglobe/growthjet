@@ -1,0 +1,201 @@
+p.banner_paragraph {
+    font-family: 'Whyte-Regular';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 26.6px;
+    max-width: 650px;
+    padding-bottom: 17px;
+}
+h1.Banner_heading {
+    font-family: 'Whyte-Bold';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0;
+    top: -15px;
+   }
+.btn_deault {
+    margin: 30px 0 50px 0;
+}
+ .download_btn_nav {
+    height: 60px;
+    width: 180px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Whyte-Medium';
+}
+h4.banner_subtitles {
+    font-family: 'Whyte-Regular';
+    font-weight: 500;
+    color: #000;
+    font-size: 17px;
+    opacity: 0.8;
+}
+.banner_positiontext {
+    position: relative;
+    top: -60px;
+}
+   .Icon_one_position {
+    position: relative;
+    top: -334px;
+}
+.Icon_two_position {
+    position: relative;
+    top: -334px;
+}
+.Icon_two_position {
+    position: relative;
+    top: -115px;
+    right: 175px;
+}
+.Icon_three_position {
+    position: relative;
+    top: -115px;
+    left: 175px;
+}
+.Icon_four_position {
+    position: relative;
+    top: 45px;
+}
+.can svg{
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+}
+img.banner_sub_img {
+    width: 55px;
+    height: 55px;
+    padding: 8px;
+    border-radius: 15px;
+    border: solid 1px;
+}
+.banner_icon_headings {
+    display: flex;
+    align-items: center;
+    margin:5px 15px;
+    text-align: center;
+}
+ .Icon_one_position{
+    display: flex;
+}
+.icon_flex_banner {
+    display: flex;
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 1150px) {
+    h4.banner_subtitles {
+        font-size: 12px;
+    }
+    .icon_flex_banner {
+            display: block;
+        }
+    h1.Banner_heading{
+        top: 0px;
+        text-shadow: none;
+        filter: none;
+        line-height: 133%;
+      
+    }
+    p.banner_paragraph{
+        font-size: 18px;
+        text-shadow: none;
+        max-width: 80%;
+        line-height: 21.28px;
+        filter: none;
+        padding-bottom: 25px;
+    }
+    .download_btn_nav{
+        font-size: 16px;
+        height: 50px;
+        width: 149px;
+   
+    }
+    section.Banner_section {
+        padding: 40px 0 !important;
+
+    }
+    .Icon_one_position {
+        display: block;
+    }
+    .banner_icon_headings{
+        justify-content: center;
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+    h1.Banner_heading {
+        font-size: 45px !important;
+
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1.Banner_heading {
+    font-size: 40px !important;
+        LETTER-SPACING: -0.5px;
+        margin: 0 AUTO;
+        max-width: 343PX;
+        line-height: 43px;
+    }
+    }
+ 
+
+
+
+@media (min-width:320px) and (max-width:662px) {
+
+
+    .row.banner_icons_grid_system {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .mob_round_1_icon {
+            position: relative;
+            right: -20px;
+        }
+        .mob_round_2_icon {
+            position: relative;
+             left: -20px;
+        }
+        .mob_round_3_icon {
+            position: relative;
+            right: 10px;
+            top: 10px;
+        }
+
+        .mob_round_4_icon {
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+        .mob_round_5_icon {
+            position: relative;
+            left: 55%;
+        }
+                .padding_last_banner_icon{
+                    padding: 0px 20px;
+                }
+}
+
+
+@media (max-width:992px) {
+    .can >div{
+        width: 55px !important;
+        height: 50px !important;
+    }
+}
+
+

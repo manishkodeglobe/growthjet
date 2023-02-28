@@ -1,0 +1,176 @@
+ .Pure_Main_tabbing {
+     background: #f8faff;
+     padding: 100px 0;
+     padding-bottom: 200px;
+     position: relative;
+        height: 120vh;
+
+ }
+
+ @media (max-width:1020px) {
+    .Pure_Main_tabbing {
+      
+            height: 100%;
+    
+        }
+    
+ }
+ .Card_tabbing_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+ }
+ 
+ 
+ 
+
+.tabs_new  div:hover {
+  
+    display: inline-block;
+    border-bottom: 5px solid #A259FF;
+    outline: 0;
+ 
+  
+ 
+   
+}
+  .tabs_new div:disabled {
+    border-bottom: 5px solid #A259FF;
+ 
+}  
+
+.title {
+    color: black;
+    font-size: medium;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content_tabbing {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.content_tabbing,
+button {
+    font-size: 15px;
+}
+
+ 
+ 
+
+@media only screen and (max-width: 960px) {
+ 
+}
+
+
+
+.Tabbing_three_simple_heading {
+    font-family: 'Whyte-Medium';
+    text-transform: math-auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.656526px;
+    color: #000000;
+}
+ 
+
+
+ 
+
+p.Tabing_two_description span {
+    position: relative;
+    left: 2px;
+    z-index: 1111;
+}
+
+/* old */
+@media (max-width: 768px) {
+
+    .card {
+        margin-bottom: 5px;
+        border-radius: 19px;
+        padding: 7px 20px !important;
+        cursor: pointer;
+    }
+
+    .center_headings.text-center.pb-5 {
+        padding: 17PX 0PX !IMPORTANT;
+    }
+
+}
+
+
+
+
+
+
+
+.card {
+    cursor: pointer;
+    background: white;
+    margin: 0px auto 15px auto;
+
+    border-radius: 18px;
+    padding: 30px 30px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+p.Tabing_two_description {
+    padding: 10px 0px 0px;
+    margin: 0;
+}
+
+
+.tab-menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+img.text_with_img {
+    max-height: 100%;
+    object-fit: contain;
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+
+.col-sm-6.text_with_img_wrapper {
+    text-align: center;
+}
+
+p.Tabing_two_description span{
+ font-family: 'Whyte-Bold';
+ text-decoration: underline;
+ text-transform: capitalize;
+
+}
+
+
+@media (max-width: 992px) {
+.simple_tabbing_row_mob{
+    flex-direction:column-reverse;
+}
+
+.Tabbing_three_simple_heading{
+    font-size: 20px;
+}
+p.Tabing_two_description{
+    font-size: 16px!important;
+    padding: 0px 0!important;
+}
+.Pure_Main_tabbing{
+    padding: 50px 0;
+}
+}

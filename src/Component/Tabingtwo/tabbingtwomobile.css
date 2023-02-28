@@ -1,0 +1,59 @@
+ section.blogs_mobile {
+     background: #f7f9ff;
+ }
+
+ 
+  @media (max-width: 992px) {
+section.blogs_mobile {
+        
+        padding: 50px 0;
+    }
+.Scroll_tab_two_heading{
+    font-size: 34px;
+}
+.Tabtwo_mob_headings{
+    padding: 8px 20px;
+}
+h4.allh4_text_sub_headings{
+    padding-left: 0;
+}
+.Tabing_paragraph,
+.Allparagraph{
+    padding: 10px 0;
+}
+
+.blue_text{
+    font-size: 15px;
+}
+ 
+  }
+  
+
+  .chakra-tabs__tablist.css-1xhq01z {
+      display: flex;
+      border: 0!important;
+    
+ 
+      justify-content: space-around;
+  }
+ 
+  .Tab_Wraps {
+      display: flex;
+    border-radius: 10px;
+        border: solid #DDDCDC 1px;
+        overflow: hidden;
+  }
+
+  .Tab_Wraps button:focus-visible{
+outline: 0px!important;
+box-shadow: none!important;
+  }
+
+  .Tab_Wraps button {
+        border-radius: 10px;
+        overflow: hidden;
+            padding: 10px 20px;
+            font-family: 'Whyte-Medium';
+            font-size: 16px;
+                line-height: 18px;
+  }

@@ -1,0 +1,90 @@
+{
+  "blogData": [
+    {
+      "id": 1,
+      "field": "SEO",
+      "readingtime": "40 min rEAD ",
+      "icon": "/images/blog1.png",
+      "title": "11 yufu To Hire A Mobile App Development Company",
+      "author": "manish verma",
+      "date": "Thu Feb 24 2023"
+    },
+    {
+      "id": 2,
+      "field": "PPC",
+      "readingtime": "40 min rEAD ",
+      "icon": "/images/blog1.png",
+      "title": "11 Reasons To Hire A Mobile App Development Company",
+      "author": "Shantanu sir",
+      "date": "Thu Feb 53 2023"
+    },
+    {
+      "id": 3,
+      "field": "BBC",
+      "readingtime": "40 min rEAD ",
+      "icon": "/images/blog1.png",
+      "title": "11 Reasons To Hire A Mobile App Development Company",
+      "author": "Alisha mem",
+      "date": "Thu Feb 12 2023"
+    },
+    {
+      "id": 4,
+      "field": "PPC",
+      "readingtime": "40 min rEAD ",
+      "icon": "/images/blog1.png",
+      "title": "11 yufu To Hire A Mobile App Development Company",
+      "author": "nikhil",
+      "date": "Thu Feb 76 2023"
+    },
+    {
+      "id": 5,
+      "field": "PPC",
+      "readingtime": "40 min rEAD ",
+      "icon": "/images/blog1.png",
+      "title": "11 Reasons To Hire A Mobile App Development Company",
+      "author": "Shantanu sir",
+      "date": "Thu Feb 22 2023"
+    },
+    {
+      "id": 6,
+      "field": "PPC",
+      "readingtime": "40 min rEAD ",
+      "icon": "/images/blog1.png",
+      "title": "11 Reasons To Hire A Mobile App Development Company",
+      "author": "Sidhi k",
+      "date": "Thu Feb 33 2023"
+    }
+  ],
+  "accordiandata": [
+    {
+      "id": 1,
+      "accTitle": "GrowthJet the cheapest?",
+      "accordiandetails": "No. And, we don t intend to be the cheapest in the market. If lowest price is the only deciding factor for you, we’re probably not a right fit for each other."
+    },
+    {
+      "id": 2,
+      "accTitle": "Architecto beatae vitae dicta explicab?",
+      "accordiandetails": "No. And, we don’t intend to be the cheapest in the market. If lowest price is the only deciding factor for you, we’re probably not a right fit for each other."
+    },
+    {
+      "id": 3,
+      "accTitle": "Sed quia non numquam eius modi ?",
+      "accordiandetails": "No. And, we don’t intend to be the cheapest in the market. If lowest price is the only deciding factor for you, we’re probably not a right fit for each other."
+    },
+    {
+      "id": 4,
+      "accTitle": "Eius modi tempora incidunt ut labore ?",
+      "accordiandetails": "No. And, we don’t intend to be the cheapest in the market. If lowest price is the only deciding factor for you, we’re probably not a right fit for each other."
+    },
+    {
+      "id": 5,
+      "accTitle": "Mxercitationem ullam corporis ? ",
+      "accordiandetails": "No. And, we don’t intend to be the cheapest in the market. If lowest price is the only deciding factor for you, we’re probably not a right fit for each other."
+    },
+    {
+      "id": 6,
+      "accTitle": "Sed quia non numquam eius modi ?",
+      "accordiandetails": "No. And, we don’t intend to be the cheapest in the market. If lowest price is the only deciding factor for you, we’re probably not a right fit for each other."
+    }
+  ]
+}

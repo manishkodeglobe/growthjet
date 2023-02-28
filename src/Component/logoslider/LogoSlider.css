@@ -1,0 +1,152 @@
+ .static_counter h4 {
+     margin-left: 30px;
+ }
+
+ p.plus_symboles strong {
+     position: absolute;
+     font-size: 85px;
+     top: -16px;
+     color: #A259FF;
+ }
+ 
+ .plus_symboles span {
+     font-size: 70px;
+     font-weight: 700;
+    color: #282828;
+
+ }
+ .logoslider_heading h4{
+    font-family: 'Whyte-Regular';
+        text-transform: capitalize;
+        font-size: 22px;
+        line-height: 133%;
+
+ }
+
+ .logo_images img{
+    width: 30px!important;
+    height: 30px!important;
+ }
+ .owl-nav {
+     display: none;
+ }
+
+ .plus_symboles {
+    margin: 0;
+     position: relative;
+ }
+
+ .Logo_slider {
+    overflow: hidden;
+    position: relative;
+    top: -45px;
+     border: 2px solid #004141;
+     border-radius: 10px;
+     padding: 30px 50px 30px;
+     background-color: #ffff;
+ }
+
+ .logo_images img {
+     height: 40px;
+     object-fit: contain;
+     width: 40px;
+
+ }
+
+ .logo_wrapper {
+     padding-top: 20px;
+ }
+
+
+ .White_space_image_left {
+     position: absolute;
+ }
+
+ .White_space_image_right {
+     position: absolute;
+     top: 0;
+     right: 0;
+ }
+
+ .White_space_image_left img {
+     width: 66px;
+     z-index: 2;
+     height: 50px;
+     left: -22px;
+     top: 9px;
+     opacity: 1;
+     position: relative;
+ }
+
+ .White_space_image_right img {
+    
+        z-index: 4;
+        /* left: 588px;
+        top: -158px; */
+        position: relative;
+ }
+
+
+ @media  (max-width:992px) {
+
+.Logo_slider{
+        padding: 15px;
+
+}
+
+.plus_symboles span{
+        font-size: 47px;
+}
+p.plus_symboles strong{
+    font-size: 47px;
+    position:  relative!important;
+    top: -3px;
+}
+ 
+.logoslider_heading h4{
+    font-size: 17px;
+    margin: 0;
+}
+
+ }
+
+ .logoslider_heading{
+    padding-left: 3rem;
+ }
+
+
+ /* spa */
+
+  @media (max-width:992px) {
+    .White_space_image_left img{
+        width: 34px;
+        height: 51px;
+
+    }
+    .White_space_image_right img {
+        width: 34px;
+        height: 51px;
+        top: 0;
+
+    }
+        .White_space_image_right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        }
+
+    .logo_images img{
+        width: 27px;
+        height: 27px;
+    }
+  }
+
+  .logo_images img {
+      width: 50px!important;
+      height: 50px!important;
+  }
+slick-slider.logo_wrapper.slick-initialized {
+    height: 68px!important;
+    overflow: hidden;
+}

@@ -1,0 +1,253 @@
+.Footer_section{
+    padding: 100px 0px 0px;
+    background-color: #000000;
+ 
+}
+
+ul.Footer_links h5 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Whyte-Regular';
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        padding: 0;
+        margin: 0;
+ 
+        color: #818181;
+}
+ul.Footer_links{
+    margin: 0;
+}
+
+ul.Footer_links li{
+    margin: 0;
+}
+.Footer_headings {
+    padding-bottom: 10px;
+}
+
+
+.CopyRight_date {
+    border-top: 1px solid #212121;
+}
+.CopyRight_date p {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    font-family: 'Whyte-Regular';
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 9px;
+    color: #818181;
+}
+
+
+@media(max-width:992px) {
+    .CopyRight_date p{
+        font-size: 15px;
+        padding-bottom:20px
+    }
+}
+
+.footer_all_same_content p ,h5,ul li a,ul{
+        font-family: 'Whyte-Regular';
+        font-style: normal;
+        font-weight: 350;
+        font-size: 18px;
+        line-height: 142%;
+        letter-spacing: 0.01em;
+        color: #8E8E8E;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 0!important;
+
+        
+}
+ 
+.social_icons img{
+
+    object-fit: contain;
+    height: 15px;
+    width: 15px;
+
+  
+
+}
+
+.social_icons{
+        padding: 10px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+
+}
+ .Social_media_icon {
+     display: flex;
+ }
+   
+
+ 
+
+ .Footer_headings h4 {
+    font-family: 'Whyte-Medium';
+ 
+     color: #ffff;
+     font-weight: 400;
+     text-transform: math-auto;
+    font-size: 26px;
+        line-height: 26px;
+ }
+
+
+ ul.Footer_links {
+     padding: 0;
+ }
+
+ @media (max-width: 768px) {
+     .Footer_section {
+         padding: 60px 0px 0px;
+     }
+
+     ul.Footer_links {
+         padding: 0;
+     }
+
+     ul.Footer_links li,
+     a {
+         font-size: 15px !important;
+     }
+
+     .Footer_paragraph p {
+
+         font-size: 14px !important;
+     }
+ }
+
+ .Footer_section {
+     background: black;
+ }
+
+ .Footer_paragraph p {
+    font-family: 'Whyte-book';
+font-weight: 350;
+    font-size: 20px;
+    line-height: 142%;
+ 
+    padding: 30px 0;
+
+    letter-spacing: 0.01em;
+
+    color: #8E8E8E;
+ }
+
+ .brand-logo.Footer_headings a {
+     font-size: 26px !important;
+     font-weight: 700;
+ }
+
+ .Social_media_icon a {
+    color: white;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 50%;
+    
+   
+ }
+
+
+
+ .text-primary a {
+     color: #007bff !important;
+ }
+
+ 
+
+ /* media */
+
+
+ @media (max-width:992px) {
+
+    .brand-logo.Footer_headings.text-primary a img{ 
+        height: 27px;
+    }
+    .Social_media_icon {
+        padding-bottom: 10px;
+    }
+    .Footer_headings h4{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .Footer_paragraph p {
+        padding: 10px 0;
+    }
+    .addressing_mobile_padding{
+        padding-bottom: 50px;
+    }
+    ul.Footer_links {
+        padding-top: 0px!important;
+    }
+    ul.Footer_links li {
+        margin:  0!important;
+    }
+
+
+    
+ }
+        .footer_icon_wrappers {
+            align-items: center;
+            display: flex;
+        }
+
+ 
+
+   .Social_media_icon a:hover {
+       background: #A259FF;
+       color: white;
+       filter: drop-shadow(0px 12.151px 19.7455px rgba(162, 89, 255, 0.52));
+       box-shadow: 0px 12.151046752929688px 19.745450973510742px 0px rgba(162, 89, 255, 0.52);
+       transition: all 0.3s;
+   }
+
+
+.footer_icon_svg{
+    border-radius: 50%;
+    padding: 7px;
+    background: rgba(16, 16, 16, 1);
+    height: 30px;
+    width: 30px;
+    
+}
+
+   .footer_icon_svg svg {
+       stroke-width: 1;
+        color: rgba(162, 89, 255, 1);
+         
+   }
+
+   .footer_icon_svg svg path {
+       stroke-width: 1;
+   }
+
+   a.footer_icon_svg.active {
+    padding: 0;
+    display: flex;
+    align-items: center;
+   }
+
+   ul.Footer_links {
+       padding-top: 30px;
+   }
+   
+   ul.Footer_links li {
+       margin: 9px 0;
+   }
+
+
+
+   section#\#footer {
+       overflow: hidden;
+   }

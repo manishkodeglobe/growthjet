@@ -1,0 +1,124 @@
+section.tab_section_two{
+    /* margin-bottom: 150px; */
+    margin-bottom: 10px;
+    padding-bottom: 20px!important;
+
+}
+
+ h6.Tab_headings_two {
+    font-family: 'Whyte-Medium';
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.656526px;
+ 
+ }
+
+ .Scroll_tab_two_heading {
+    font-family: 'Whyte-Bold';
+    font-size: 40px;
+    font-weight: 700;
+    color: #282828;
+    line-height: 114.5%;
+    text-transform: math-auto;
+ }
+
+ h4.Tab_two_headingss {
+    font-family: 'Whyte-Bold';
+    text-transform: math-auto;
+    padding: 15px 0 0px;
+     font-size: 43px;
+     line-height: 49px;
+     font-weight: 700;
+     color: #282828;
+ }
+
+
+ .Tab_scroll_ul_two {
+     display: flex;
+     list-style: none;
+     border-radius: 10px;
+     border: solid #DDDCDC 2px;
+     position: relative;
+     top: 20px;
+     padding: 0;
+     margin: 0;
+     overflow: hidden;
+     background: #f7f9ff;
+ }
+
+
+ .Tabing_navigation_scroll_two {
+     display: flex;
+     align-items: center;
+     position: -webkit-sticky;
+     position: sticky;
+     max-width:518px;
+     margin:  0 auto;
+     top: -1px;
+     z-index: 2;
+     padding: 0px;
+ 
+ }
+ .active_two {
+     background-color: #A259FF;
+     color: white !important;
+     padding: 0;
+
+
+ }
+
+ a.Active_scroll_nav_button_two {
+    width: 33.33%;
+         padding: 8px 0px 8px 0px;
+
+ }
+
+ .blue_text {
+    font-family: 'Whyte-Light';
+    font-weight: 300;
+    color: #A259FF;
+    font-size: 28px;
+    line-height: 93.9%;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+ }
+
+ p.Tabing_two_description {
+    font-family: 'Whyte-Regular';
+     font-size: 19px;
+     letter-spacing: 1;
+     padding: 20px 0;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    color: #282828;
+ }
+
+
+ .Tab_img {
+    width: 650px;
+    height: 650px;
+    object-fit: contain;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+ }
+
+ .row.tabbing_two_row {
+    position: relative;
+    /* top: -250px; */
+ }
+
+ .tab_content_wrapper_img_two {
+    position: relative;
+   top:96px;
+    
+ }
+ 
+
+ @media screen and (max-width: 992px) {
+
+ section.tab_section_two{
+   display: none;
+ }
+ }

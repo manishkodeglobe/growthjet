@@ -1,0 +1,132 @@
+/* faq acoordian */
+.accordion_heading {
+    font-family: 'Whyte-Medium';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #000000;
+    text-transform: math-auto;
+    padding:10px 0;
+
+}
+
+.Accordian_text{
+    font-family: 'Whyte-Book';
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    color: #282828;
+}
+
+
+
+section.Faq {
+    position: relative;
+    overflow: hidden;
+    background: white;
+}
+
+@media (max-width: 768px) {
+    .accordion {
+        padding: 0px 18px !important;
+    }
+
+    section.Faq {
+        padding: 0px 0 50px;
+    }
+
+    h2.allh2_text_sub_headings {
+        font-size: 28px !important;
+        font-weight: 500;
+    }
+}
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+@media  (max-width:992px) {
+
+    h2.Scroll_tab_two_heading.faq_heads {
+            padding: 18px 9px;
+        }
+    .accordion_heading{
+        font-size: 17px;
+    }
+    .Accordian_text{
+        font-size: 16px;
+    }
+    button.accordion-button.collapsed {
+        padding: 5px 0;
+    }
+    .accordion-button{
+        padding: 0px!important;
+    }
+    .accordion-body{
+        padding: 10px 0!important;
+    }
+         
+    
+}
+
+ 
+.accordion-item{
+    border: 0px!important;
+}
+
+ 
+button.accordion-button {
+    box-shadow: none !important;
+}
+
+/* new */
+
+.Accordian_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width:992px) {
+.Accordian_wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+.Accordian_wrapper>div {
+    max-width: 100%!important;
+    margin:0!important;
+    padding: 0px !important;
+}
+}
+.chakra-accordion > div{
+    border-top: none;
+ 
+}
+.Accordian_wrapper >div {
+max-width: 100%;
+    padding: 0px 40px;
+  
+     
+}

@@ -1,0 +1,165 @@
+@media (max-width: 1100px) {
+    section.tab_section {
+        display: none !important;
+    }
+}
+  @media (min-width: 1100px) {
+      section.blogs_mobile {
+          display: none;
+          padding: 50px 0;
+      }
+  }
+
+  /*  */
+section.tab_section {
+    /* padding-top: 0px;
+    margin-top: 80px; */
+    background: #f7f9ff;
+    /* padding-bottom: 300px; */
+}
+
+h6.Tab_headings{
+    font-family: 'Whyte-Medium';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 23px;
+    letter-spacing: -0.656526px;
+    color: #1F2300;
+}
+
+span.White_text {
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 0.2;
+    font-family: 'Whyte-Bold';
+}
+
+a.Active_scroll_nav_button {
+    padding: 20px 0px 20px 40px;
+}
+
+h4.allh4_text_sub_headings {
+    font-family: 'Whyte-Bold';
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 114.5%;
+    color: #282828;
+    padding-left: 18px;
+ 
+
+}
+
+.Tabing_paragraph,
+.Allparagraph {
+    padding-top: 30px;
+    padding-left: 7px;
+    line-height: 26.6px;
+    font-family: 'Whyte-Regular';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    color: #282828;
+        margin-bottom: 30px;
+
+}
+.our_focus_list_with_icon li {
+    font-family: 'Whyte-BoldItalic';
+    font-weight: 350;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #282828;
+    padding-top: 0px!important;
+}
+
+
+@media  (max-width:992px) {
+    .our_focus_list_with_icon li {
+            font-size: 14px;
+        }
+    
+}
+
+ul.our_focus_list_with_icon li {
+    padding: 10px 0;
+}
+
+.growing_convertion_image svg {
+    position: absolute;
+    left: 89px;
+    bottom: -73px;
+    z-index: 2;
+
+}
+
+
+.growing_Seo_meter_image img{
+
+        position: absolute;
+        left:  0;
+        z-index: 2;
+
+}
+.growing_Seo_meter_image svg {
+
+    position: absolute;
+    left: 480px;
+    bottom: -122px;
+    z-index: 2;
+
+}
+.click_svg_image img{
+        position: absolute;
+        left: 0px;
+        z-index: 2;
+}
+.click_svg_image  svg {
+    position: absolute;
+    left: 500px;
+    bottom: -241px;
+    z-index: 2;
+}
+
+.ppcChart svg {
+    position: absolute;
+    top: 468px;
+    left: 462px;
+}
+/* socialmedia */
+.social_svg_image img {
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+}
+
+.social_svg_image svg {
+    position: absolute;
+    left: 500px;
+    bottom: -241px;
+    z-index: 2;
+}
+
+.ppcChartsocial svg {
+    position: absolute;
+    top: 450px;
+    left: 447px;
+}
+ 
+/* Email Icons */
+
+.Email_and_bELL_ICONS img{
+    position: absolute;
+    left: 0;
+}
+.Email_and_bELL_ICONS svg{
+    position: absolute;
+    top: 178px;
+    left: 49px;
+}
+.Email_Iconss svg{
+    position: absolute;
+    left: 310px;
+    top: 464px;
+}

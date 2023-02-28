@@ -1,0 +1,154 @@
+.col-sm-4.outer_images{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.outer_images img{
+    /* width: 93%; */
+    height: 100%;
+    object-fit: cover;
+
+}
+
+@media (min-width:100px) and (max-width:800px) {
+
+        .col-sm-4.outer_images {
+                right: -45% !important;
+                    width: 100% !important;
+            }
+            .outer_images img {
+                
+                margin: 0 0 0 auto;
+            }
+    
+}
+
+@media (min-width:800px) and (max-width:1100px) {
+
+    .col-sm-4.outer_images {
+        right: -45% !important;
+        width: 100% !important;
+    }
+    .outer_images img {
+
+        margin: 0 0 0 auto;
+    }
+
+}
+
+
+
+@media (max-width: 992px) {
+    .margin_for_email {
+            margin: 0px 0px!important;
+        }
+
+    /* .col-sm-4.outer_images{
+        right: -45%!important;
+    } */
+    .ctc_form {
+        display: flex;
+        justify-content: left;
+    }
+
+    .form-inline {
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-flow: column;
+        align-items: start;
+    }
+
+    .ctc_heaading {
+        color: #282828;
+        font-weight: 700;
+        max-width: 74%;
+        padding-bottom: 10px;
+        font-size: 20px !important;
+    }
+                section.CTC{
+                    padding: 50px 0!important;
+                }
+
+}
+
+section.Latest_blog {
+
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
+
+section.CTC{
+    padding: 70px 0;
+}
+
+
+
+
+.ctc_heaading {
+ 
+    font-weight: 700;
+    font-family: 'Whyte-Bold';
+    font-size: 38px;
+    text-transform: math-auto;
+        color: #FFFFFF;
+
+}
+
+.margin_for_email{
+    margin: 0px 20px;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .ctc_position_wrapresopnsive {
+        /* position: absolute; */
+        overflow: hidden;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    img.text_with_img.ctc_img {
+        left: 183px;
+    }
+}
+
+@media (max-width: 992px) {
+    h4.allh4_text_sub_headings.text-white {
+        font-size: 20px !important;
+        font-weight: 400;
+    }
+
+    .row.align-item-center {
+        align-items: center;
+    }
+
+}
+
+section.CTC.p-0 {
+    overflow: hidden;
+}
+
+section.CTC {
+    background-color: #A259FF;
+    position: relative;
+}
+
+.Wrapper {
+    display: flex;
+    align-items: center;
+ 
+}
+
+img.text_with_img.ctc_img {
+    height: -webkit-fill-available;
+    position: relative;
+
+}

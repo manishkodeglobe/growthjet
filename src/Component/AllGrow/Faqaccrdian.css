@@ -1,0 +1,24 @@
+.Faq_section{
+    padding: 100px 0;
+}
+
+.Faq_section_heading h2 {
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 93.9%;
+ 
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #A259FF;
+}
+
+.Faq_section_heading p {
+        font-family: 'Whyte';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 43px;
+        line-height: 114.5%;
+        color: #282828;
+}

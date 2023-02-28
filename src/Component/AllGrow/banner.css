@@ -1,0 +1,106 @@
+.Home_page_banner_Main_heading {
+    max-width: 670px;
+    text-align: center;
+    margin: auto;
+}
+.Home_page_banner_Main_heading h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.Home_page_banner_Main_heading p {
+    padding-top:5px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    max-width: 575px;
+    margin: auto;
+}
+
+.Home_page_banner_Main_heading button{
+    font-size: 21px;
+    padding: 14px 50px;
+
+}
+.Hero_banner{
+    padding: 70px 0;
+}
+
+
+.Banner_serives_icons{
+    display: flex;
+    padding-top: 75px;
+}
+.banner_icon_one {
+    position: relative;
+    top: -410px;
+}
+.banner_icon_five{
+    position: relative;
+    top: -410px;
+
+}
+.banner_icon_two {
+    position: relative;
+    top: -136px;
+    left: -260px;
+}
+
+ .banner_icon_four{
+    position: relative;
+    top: -136px;
+    right: -260px;
+
+ }
+.banner_icons{
+    display: flex;
+}
+.banner_icons img{
+    width: 55px;
+    height: 55px;
+    border: solid 1px;
+    border-color: rgb(33, 37, 41);
+    border-radius: 15px;
+    padding: 8px;
+    margin-right: 1.5rem;
+    
+}
+
+/* media querry */
+
+@media only screen and (max-width: 992px) {
+
+    .Home_page_banner_Main_heading h1{
+        font-size: 48px;
+    }
+        .Home_page_banner_Main_heading button{
+            font-size: 14px;
+            padding: 10px 25px;
+        }
+
+    .banner_icon_one{
+        top: 0px;
+    }
+    .banner_icon_two{
+        top: 0;
+        left: 0;
+    }
+    .banner_icon_four{
+        top: 0;
+        left: 0;
+        
+    }
+        .banner_icon_five{
+            top: 0;
+        }
+
+    .Banner_serives_icons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto); 
+       
+    }
+        .banner_icons {
+            display: block;
+            text-align: center;
+        }
+}

@@ -1,0 +1,114 @@
+ .Yello_ctc{
+    background: rgba(248, 206, 103, 1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 78px;
+    max-width: 1272px;
+    max-height: 380px;
+    margin: 0 auto;
+    /* padding: 100px 0; */
+   
+
+
+
+ }
+
+ .yelloCTCsection{
+    padding: 100px 0;
+    background-color: white;
+   
+        position: relative;
+            z-index: 4;
+
+ }
+
+
+.yello_banner_content h2 {
+    font-family: 'Whyte-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 114.5%;
+    color: #282828;
+
+}
+.yello_banner_content p {
+        font-family: 'Whyte-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: 0.04em;
+        color: #282828;
+        padding:15px 0;
+}
+
+ 
+.image_change_with_ease_slides {
+    display: flex;
+    justify-content: center;
+}
+
+
+button.btn.btn-dark.Yello_ctc_button{
+        font-family: 'Whyte-Medium';
+            text-transform: capitalize;
+            font-size: 20px;
+            padding: 14px 50px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: -0.03em;
+            color: #FFFFFF;
+
+}
+
+
+/* Responsive */
+ @media screen and (max-width: 992px) {
+
+    .yelloCTCsection{
+        padding: 30px 0;
+    }
+
+    .yello_banner_content h2{
+        font-size: 24px;
+    }
+    .Yello_ctc{
+        max-width: 100%;
+        max-height: 100%;
+        padding: 40px 20px;
+    }
+
+    .yello_banner_content{
+        font-size: 16px;
+    }
+    button.btn.btn-dark.Yello_ctc_button{
+        font-size: 16px;
+        padding: 10px 27px;
+            margin: 20px 0;
+    }
+    .image_change_with_ease_slides img{
+        height: 116px;
+        object-fit: contain;
+        width: 116px;
+
+    }
+.image_change_with_ease_slides{
+            top: -88px;
+                right: 8%;
+    position: absolute;
+}
+
+.width_100_in_mob{
+    width: 100%!important;
+}
+
+
+    
+
+
+ }
+
