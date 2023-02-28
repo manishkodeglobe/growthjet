@@ -200,7 +200,7 @@ function TabScrol() {
                       </div>
                       <div className="col-sm-12 text-left">
                         <h6 className="Tab_headings">
-                          Email Marketing Services
+                          Email Marketing Service
                         </h6>
                       </div>
                     </div>
