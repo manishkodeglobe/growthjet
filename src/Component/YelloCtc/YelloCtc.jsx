@@ -15,7 +15,7 @@ const YelloCtc = () => {
             <div className="col-sm-8 yello_banner_content">
               <h2>
                 If we don’t give you at least a 200% RETURN on your marketing
-                spend, we work for free.*
+                spent, we work for free.*
               </h2>
               <p>
                 Once you experience the GrowthJet magic, you’ll never work with
