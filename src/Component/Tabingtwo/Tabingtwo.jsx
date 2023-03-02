@@ -4,6 +4,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-scroll";
 import "./tabingtwo.css";
 
+// images
+
+import Planning from "./planning.png";
+import Implement from "./implement.png";
+import Optimize from "./optimize.png";
+
 function Tabingscrolltwo() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -14,7 +20,7 @@ function Tabingscrolltwo() {
     const numOfTransitions = headingss.length;
 
     // const singleDurations = 900;
-    let singleDurations = window.innerHeight;
+    let singleDurations = window.innerHeight - 120;
     const totalDurations = singleDurations * numOfTransitions;
 
     ScrollTrigger.create({
@@ -222,7 +228,7 @@ function Tabingscrolltwo() {
                             <img
                               className="Tab_img"
                               id="tab_twoimg"
-                              src="./images/planning.png"
+                              src={Planning}
                               alt="seo"
                             ></img>
                           </div>
@@ -239,7 +245,7 @@ function Tabingscrolltwo() {
                           <div className="tab_content_wrapper_img_two">
                             <img
                               className="Tab_img"
-                              src="./images/implement.png"
+                              src={Implement}
                               alt="seo"
                             ></img>
                           </div>
@@ -257,7 +263,7 @@ function Tabingscrolltwo() {
                           <div className="tab_content_wrapper_img_two">
                             <img
                               className="Tab_img"
-                              src="./images/optimize.png"
+                              src={Optimize}
                               alt="seo"
                             ></img>
                           </div>

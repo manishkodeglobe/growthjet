@@ -2,6 +2,8 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./allBlogger.css";
+// images
+import bloogBanner from "./bloogBanner.png";
 
 function AllBloger() {
   const [currentPageData, setCurrentPageData] = useState([]);
@@ -55,7 +57,7 @@ function AllBloger() {
         <div className="container position_change_on_banner">
           <div className="row">
             <div className="col-lg-6 d-flex justify-content-center blog_img_banner_mob">
-              <img src="./images/bloogBanner.png" alt="bloogpagebanner"></img>
+              <img src={bloogBanner} alt="bloogpagebanner"></img>
             </div>
             <div className="col-lg-6">
               <div className="row date_and_author_name_all_blog">

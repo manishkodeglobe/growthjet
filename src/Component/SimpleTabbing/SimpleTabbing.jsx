@@ -2,26 +2,30 @@ import React, { useState } from "react";
 import "./SimpleTabbing.css";
 import ReactReadMoreReadLess from "../../../node_modules/react-read-more-read-less/build/index";
 
+import tabbing1 from "./tabing1.png";
+import tabbing2 from "./tabbing2.png";
+import tabbing3 from "./tabbing3.png";
+
 const SimpleTabbing = () => {
   const [currentTab, setCurrentTab] = useState("1");
   const tabs = [
     {
       id: 1,
-      image: "./images/Tabwithhover1.jpg",
+      image: tabbing1,
       title: "Peak performance, every time",
       content:
         "Industry experts filtered down to the top 1%, to ensure that your project is always in the right hands",
     },
     {
       id: 2,
-      image: "./images/Tabwithhover2.jpg",
+      image: tabbing2,
       title: "Fastest way to scale your brand's growth",
       content:
         "Your one stop solution for all your growth related requirements. All campaigns are 100% trackable, transparent, and ROI focused. ",
     },
     {
       id: 3,
-      image: "./images/Tabwithhover3.jpg",
+      image: tabbing3,
       title: "Seamless delivery powered by technology",
       content:
         "In depth research, continuous optimization, and bespoke solutions that actually work. Say goodbye to old-fashioned briefings, campaigns, and processes which yielded no or next-to-no results. With GrowthJet, Experience the power of performance marketing.",

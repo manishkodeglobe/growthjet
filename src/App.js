@@ -28,18 +28,19 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/home" element={<Homepage />} />
+          <Route exact path="/about" element={<AboutPage />} />
+          <Route exact path="/services" element={<ServicesPage />} />
 
-          <Route path="/Career" element={<Career />} />
-          <Route path="/Privacypolicy" element={<Privacypolicy />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/termsofuse" element={<TermsofUse />} />
-          <Route path="/portfolio" element={<PortFolio />} />
-          <Route path="/industries" element={<Industries />} />
-          <Route path="/AllBloogPage" element={<AllBloogPage />} />
-          <Route path="/single/:id" element={<Single />} />
+          <Route exact path="/Career" element={<Career />} />
+          <Route exact path="/Privacypolicy" element={<Privacypolicy />} />
+          <Route exact path="/faq" element={<Faq />} />
+          <Route exact path="/contact" element={<ContactPage />} />
+          <Route exact path="/termsofuse" element={<TermsofUse />} />
+          <Route exact path="/portfolio" element={<PortFolio />} />
+          <Route exact path="/industries" element={<Industries />} />
+          <Route exact path="/AllBloogPage" element={<AllBloogPage />} />
+          <Route exact path="/single/:id" element={<Single />} />
         </Routes>
 
         <Footer />

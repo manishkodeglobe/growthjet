@@ -9,10 +9,11 @@
 
  @media (max-width:1020px) {
     .Pure_Main_tabbing {
-      
             height: 100%;
-    
         }
+    .content_tabbing {
+        display: none;
+    }
     
  }
  .Card_tabbing_image img{

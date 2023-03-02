@@ -2,12 +2,12 @@
     padding-right: 148px;
 }
 
-.Bloogs_button button{
+.Bloogs_button  a{
         font-family: 'Whyte-Medium';
         text-transform: capitalize;
         font-size: 25px;
         padding: 14px 35px;
-        line-height: 26px;
+    
         letter-spacing: -0.03em;
         color: #FFFFFF;
         width: 254px;
@@ -108,11 +108,11 @@
                         display: none!important;
                     }
 
-                    .Bloogs_button button{
+                    .Bloogs_button  a{
                         font-size: 16px;
                         width: 156px;
                         height: 50px;
-                        padding: 0;
+                        
                     }
                                         .Latest-BlogItems_row{
                                             margin-top: 20px;
@@ -150,10 +150,9 @@
                     .Latest_blog_img_icons {
                         width: 30px !important;
                     }
+                    h6.h6_heading {
+                        font-size: 14px !important;
+                        padding: 20px 0 10px 0;
+                    }
                 }
 
-                                h6.h6_heading {
-                                    font-size: 14px !important;
-                                    padding: 20px 0 10px 0;
-                                }
-                

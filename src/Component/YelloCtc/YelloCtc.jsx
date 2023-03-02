@@ -2,6 +2,8 @@ import React from "react";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
+import yelloCtcImg from "./yelloctcimg.png";
+
 import "./YelloCtc.css";
 
 const YelloCtc = () => {
@@ -25,10 +27,7 @@ const YelloCtc = () => {
             </div>
             <div className="col-sm-4 width_100_in_mob">
               <div className="image_change_with_ease_slides">
-                <img
-                  src="./images/returnimagefade.png"
-                  alt="imageslideease"
-                ></img>
+                <img src={yelloCtcImg} alt="imageslideease"></img>
               </div>
             </div>
           </div>

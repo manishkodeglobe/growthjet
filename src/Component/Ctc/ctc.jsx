@@ -1,6 +1,9 @@
 import React from "react";
 import "./Ctc.css";
 
+//
+import girlImage from "./girl.png";
+
 function Ctc() {
   return (
     <section className="CTC ">
@@ -39,7 +42,7 @@ function Ctc() {
             </div>
           </div>
           <div className="col-sm-4 outer_images">
-            <img className="ctc_img" src="./images/ctc.png" alt="ctc" />
+            <img className="ctc_img" src={girlImage} alt="ctc" />
           </div>
         </div>
       </div>

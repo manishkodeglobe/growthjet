@@ -1,28 +1,39 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import "./latestBlog.css";
 
+// images
+
+import latestBlog1 from "./latestblog1.png";
+import latestBlog2 from "./latestblog2.png";
+import latestBlog3 from "./latestblog3.png";
+// bloicon2
+
+import latestBlogicon1 from "./blogicon1.png";
+import latestBlogicon2 from "./blogicon2.png";
+import latestBlogicon3 from "./blogicon3.png";
+// start
 function Latestblog() {
   const latestblogsdata = [
     {
       id: 1,
-      Image: "./images/blogshome1.png",
+      Image: latestBlog1,
       title: "11 Reasons To Hire A Mobile App Development Company",
-      icon: "./images/latest4.png",
+      icon: latestBlogicon1,
       bloogername: "Regina Fox",
     },
     {
       id: 2,
-      Image: "./images/blogshome2.png",
+      Image: latestBlog2,
       title: "Web App Vs. Mobile App Development - Which Should You Choose?",
-      icon: "./images/latest5.png",
+      icon: latestBlogicon2,
       bloogername: "Regina Fox",
     },
     {
       id: 3,
-      Image: "./images/blogshome3.png",
+      Image: latestBlog3,
       title: "How To Build An Outstanding Mobile App [Flutter Dev Tools]",
-      icon: "./images/latest6.png",
+      icon: latestBlogicon3,
       bloogername: "Regina Fox",
     },
   ];
@@ -48,7 +59,15 @@ function Latestblog() {
               ></i>
             </div>
             <div className="Bloogs_button">
-              <button className="btn btn-dark">More Blogs</button>
+              <NavLink
+                onClick={() => {
+                  window.location.href = "#top";
+                }}
+                className="btn btn-dark"
+                to="/AllBloogPage"
+              >
+                More Blogs
+              </NavLink>
             </div>
           </div>
           <div className="col-lg-7 col-sm-12 col-md-12">

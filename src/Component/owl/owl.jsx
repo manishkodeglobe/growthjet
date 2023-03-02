@@ -3,6 +3,10 @@ import "./owl.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+// imgs
+import Testmonial1 from "./testminials1.png";
+import Testmonial2 from "./testmonial2.png";
+import Testmonial3 from "./testminials3.png";
 
 const Owl = () => {
   var settings = {
@@ -54,7 +58,7 @@ const Owl = () => {
             </p>
             <div className="Wrapper_Testimoanials_detal">
               <div className="testmonial_icon">
-                <img src="./images/test4.png" alt="testimonial1"></img>
+                <img src={Testmonial1} alt="testimonial1"></img>
               </div>
               <div className="d-flex align-items-center author_annd_field">
                 <div>
@@ -78,7 +82,7 @@ const Owl = () => {
             </p>
             <div className="Wrapper_Testimoanials_detal">
               <div className=" testmonial_icon">
-                <img src="./images/test.png" alt="testimonial1"></img>
+                <img src={Testmonial2} alt="testimonial1"></img>
               </div>
               <div className="d-flex align-items-center author_annd_field">
                 {" "}
@@ -103,7 +107,7 @@ const Owl = () => {
             </p>
             <div className="Wrapper_Testimoanials_detal">
               <div className=" testmonial_icon">
-                <img src="./images/test2.png" alt="testimonial1"></img>
+                <img src={Testmonial3} alt="testimonial1"></img>
               </div>
               <div className="d-flex align-items-center author_annd_field">
                 {" "}
@@ -128,7 +132,7 @@ const Owl = () => {
             </p>
             <div className="Wrapper_Testimoanials_detal">
               <div className=" testmonial_icon">
-                <img src="./images/test3.png" alt="testimonial1"></img>
+                <img src={Testmonial1} alt="testimonial1"></img>
               </div>
               <div className="d-flex align-items-center author_annd_field">
                 <div>
@@ -152,7 +156,7 @@ const Owl = () => {
             </p>
             <div className="Wrapper_Testimoanials_detal">
               <div className=" testmonial_icon">
-                <img src="./images/test4.png" alt="testimonial1"></img>
+                <img src={Testmonial2} alt="testimonial1"></img>
               </div>
               <div className="d-flex align-items-center author_annd_field">
                 <div>
@@ -176,7 +180,7 @@ const Owl = () => {
             </p>
             <div className="Wrapper_Testimoanials_detal">
               <div className="testmonial_icon">
-                <img src="./images/test.png" alt="testimonial1"></img>
+                <img src={Testmonial3} alt="testimonial1"></img>
               </div>
               <div className="d-flex align-items-center author_annd_field">
                 <div>

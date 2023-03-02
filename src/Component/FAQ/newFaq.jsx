@@ -38,7 +38,7 @@ const NewFaq = () => {
       <div className="container">
         <div class="center_headings text-center pb-5">
           <h5 class="blue_text">FAQ</h5>
-          <h2 class="Scroll_tab_two_heading faq_heads">
+          <h2 class="Scroll_tab_two_heading faq_heads pt-3">
             Have questions? Great! We love answering.
           </h2>
         </div>

@@ -1,6 +1,13 @@
 import React from "react";
 import "./tabbingtwomobile.css";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+
+// images
+
+import Planning from "./planning.png";
+import Implement from "./implement.png";
+import Optimize from "./optimize.png";
+
 function Tabingtwomobile() {
   return (
     <section className="blogs_mobile">
@@ -54,7 +61,7 @@ function Tabingtwomobile() {
                   <img
                     className="Mobile_tab_img"
                     id="tab_twoimg"
-                    src="./images/plannew.jpg"
+                    src={Planning}
                     alt="seo"
                   ></img>
                 </div>
@@ -87,7 +94,7 @@ function Tabingtwomobile() {
                 <img
                   className="Mobile_tab_img"
                   id="tab_twoimg"
-                  src="./images/implementnew.jpg"
+                  src={Implement}
                   alt="seo"
                 ></img>
               </div>
@@ -119,7 +126,7 @@ function Tabingtwomobile() {
                 <img
                   className="Mobile_tab_img"
                   id="tab_twoimg"
-                  src="./images/optimizeneww.jpg"
+                  src={Optimize}
                   alt="seo"
                 ></img>
               </div>

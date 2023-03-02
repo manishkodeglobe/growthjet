@@ -27,7 +27,7 @@ function Header() {
             <div class="container">
               <ul className="nav navbar-nav d-flex align-items-center">
                 <li className="nav-item">
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/home">Home</NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/about">About</NavLink>

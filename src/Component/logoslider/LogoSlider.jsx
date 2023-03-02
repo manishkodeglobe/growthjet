@@ -5,6 +5,12 @@ import ScrollTrigger from "react-scroll-trigger";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+// import logo images
+
+import slide1 from "./slide1.png";
+import slide2 from "./slide2.png";
+import whiteSpaceLeft from "./whitespaceleft.png";
+import whiteSpaceRight from "./whitespaceright.png";
 
 import "./LogoSlider.css";
 
@@ -82,7 +88,7 @@ function Logoslider() {
             </div>
             <div className="col-sm-6 col-lg-6">
               <div className="White_space_image_left">
-                <img src="./images/whitespaceleft.png" alt="whitespace"></img>
+                <img src={whiteSpaceLeft} alt="whitespace"></img>
               </div>
 
               <OwlCarousel
@@ -93,47 +99,47 @@ function Logoslider() {
                 nav
               >
                 <div className="logo_images">
-                  <img src="./images/slide1.png" alt="slider1" />
+                  <img src={slide1} alt="slider1" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide2.png" alt="slider2" />
+                  <img src={slide2} alt="slider2" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide1.png" alt="slider3" />
+                  <img src={slide1} alt="slider3" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide2.png" alt="slider4" />
+                  <img src={slide2} alt="slider4" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide1.png" alt="slider5" />
+                  <img src={slide1} alt="slider5" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide2.png" alt="slider6" />
+                  <img src={slide2} alt="slider6" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide1.png" alt="slider7" />
+                  <img src={slide1} alt="slider7" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide2.png" alt="slider8" />
+                  <img src={slide2} alt="slider8" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide1.png" alt="slider9" />
+                  <img src={slide1} alt="slider9" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide2.png" alt="slider6" />
+                  <img src={slide2} alt="slider6" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide1.png" alt="slider7" />
+                  <img src={slide1} alt="slider7" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide2.png" alt="slider8" />
+                  <img src={slide2} alt="slider8" />
                 </div>
                 <div className="logo_images">
-                  <img src="./images/slide1.png" alt="slider9" />
+                  <img src={slide1} alt="slider9" />
                 </div>
               </OwlCarousel>
               <div className="White_space_image_right">
-                <img src="./images/whitespaceright.png" alt="whitespace"></img>
+                <img src={whiteSpaceRight} alt="whitespace"></img>
               </div>
             </div>
           </div>

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrFormClose } from "react-icons/gr";
-
 import { NavLink } from "react-router-dom";
+import navLogo from "./Logo.svg";
 
 const Header = () => {
   const [ShowMenu, setShowMenu] = useState(true);
@@ -17,7 +17,7 @@ const Header = () => {
         <div className="Header_Wrapper ">
           <div className="Header_icon">
             <NavLink to="/">
-              <img src="./images/Logo.svg" alt="Logo-Img" />
+              <img src={navLogo} alt="Logo-Img" />
             </NavLink>
           </div>
 
@@ -57,7 +57,7 @@ const Header = () => {
                 <>
                   <GrFormClose size={40} className="fixed_close_icon" />
                   <img
-                    src="./images/Logo.svg"
+                    src={navLogo}
                     alt="Logo-Img"
                     className="fixed_close_icon logo-icon-fixedd  e"
                   />

@@ -10,8 +10,13 @@ import EmailMarket from "../lottie/emailMarketing.json";
 import "./mobtabScroll.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-
 import { AiFillCheckCircle } from "react-icons/ai";
+// all images
+import seoImage from "./seobig.png";
+import ppcbig from "./ppcbig.png";
+import emailMarketingBig from "./emailBigs.png";
+import socialMediaBig from "./scoialmedia.png";
+import crobig from "./crobig.png";
 
 const TabScrolonmobile = () => {
   let rockets = {
@@ -136,7 +141,7 @@ const TabScrolonmobile = () => {
                 <div className="col-sm-12 col-md-12 col-lg-6">
                   <img
                     class="Mobile_tab_img"
-                    src="./images/seonews.jpg"
+                    src={seoImage}
                     alt="Email marketing"
                   />
                 </div>
@@ -192,7 +197,7 @@ const TabScrolonmobile = () => {
                 <div className="col-sm-12 col-md-12 col-lg-6">
                   <img
                     class="Mobile_tab_img"
-                    src="./images/Payperclicknew.jpg"
+                    src={ppcbig}
                     alt="Email marketing"
                   />
                 </div>
@@ -255,7 +260,7 @@ const TabScrolonmobile = () => {
                 <div className="col-sm-12 col-md-12 col-lg-6">
                   <img
                     class="Mobile_tab_img"
-                    src="./images/conversionratenew.jpg"
+                    src={crobig}
                     alt="Email marketing"
                   />
                 </div>
@@ -312,7 +317,7 @@ const TabScrolonmobile = () => {
                 <div className="col-sm-12 col-md-12 col-lg-6">
                   <img
                     class="Mobile_tab_img"
-                    src="./images/socialmedianew.jpg"
+                    src={socialMediaBig}
                     alt="Email marketing"
                   />
                 </div>
@@ -378,7 +383,7 @@ const TabScrolonmobile = () => {
                 <div className="col-sm-12 col-md-12 col-lg-6">
                   <img
                     className="Mobile_tab_img"
-                    src="./images/emailmarketingnew.jpg"
+                    src={emailMarketingBig}
                     alt="tab-1"
                   ></img>
                 </div>

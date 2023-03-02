@@ -12,7 +12,12 @@ import Cro from "../lottie/cro.json";
 import scoalMedia from "../lottie/social.json";
 import EmailMarket from "../lottie/emailMarketing.json";
 
-import ppcbiganim from "./lottifiles/click.json";
+// all big images
+import seoImage from "./seobig.png";
+import ppcbig from "./ppcbig.png";
+import emailMarketingBig from "./emailBigs.png";
+import socialMediaBig from "./scoialmedia.png";
+import crobig from "./crobig.png";
 
 function TabScrol() {
   useEffect(() => {
@@ -23,7 +28,7 @@ function TabScrol() {
     const head = document.querySelector(".tabhead");
     const numOfTransitions = headings.length;
 
-    let singleDurations = window.innerHeight;
+    let singleDurations = window.innerHeight - 120;
     const totalDurations = singleDurations * numOfTransitions;
 
     ScrollTrigger.create({
@@ -500,7 +505,7 @@ function TabScrol() {
                           <div className="tab_content_wrapper_img  ">
                             <img
                               className="Tab_img"
-                              src="./images/SeoBig.png"
+                              src={seoImage}
                               alt="seo"
                             ></img>
                           </div>
@@ -517,7 +522,7 @@ function TabScrol() {
                           <div className="tab_content_wrapper_img   ">
                             <img
                               className="Tab_img"
-                              src="./images/ppcbig.png"
+                              src={ppcbig}
                               alt="Pay Per clicks"
                             ></img>
                           </div>
@@ -534,7 +539,7 @@ function TabScrol() {
                           <div className="tab_content_wrapper_img  ">
                             <img
                               className="Tab_img"
-                              src="./images/cro.png"
+                              src={crobig}
                               alt="Conversion rate"
                             ></img>{" "}
                           </div>
@@ -550,7 +555,7 @@ function TabScrol() {
                           <div className="tab_content_wrapper_img   ">
                             <img
                               className="Tab_img"
-                              src="./images/socialmediaBig.png"
+                              src={socialMediaBig}
                               alt="social media icons"
                             ></img>
                           </div>
@@ -566,7 +571,7 @@ function TabScrol() {
                           <div className="tab_content_wrapper_img  ">
                             <img
                               className="Tab_img"
-                              src="./images/EmailBig.png"
+                              src={emailMarketingBig}
                               alt="Email marketing"
                             ></img>
                           </div>

@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 import "./footer.css";
+import footerLogo from "./footerlogo.svg";
 
 import { FaFacebookF } from "react-icons/fa";
 import { ImLinkedin2 } from "react-icons/im";
@@ -19,8 +20,8 @@ function Footer() {
           <div className="row">
             <div className="col-sm-3 Footer_paragraph pb-4">
               <div className="brand-logo Footer_headings text-primary">
-                <NavLink to="/">
-                  <img src="./images/footerlogo.svg" alt="mainFooterlogo"></img>
+                <NavLink to="/home">
+                  <img src={footerLogo} alt="mainFooterlogo"></img>
                 </NavLink>
               </div>
               <p className="footer_paragraph">
